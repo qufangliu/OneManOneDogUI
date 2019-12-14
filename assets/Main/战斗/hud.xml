@@ -5,13 +5,13 @@
     <component id="n0_jk0i" name="hud_tip" src="jk0io" fileName="战斗/hud_tip.xml" xy="0,0">
       <gearDisplay controller="state" pages="1"/>
     </component>
-    <component id="n1_jk0i" name="health_bar" src="jk0ip" fileName="战斗/progress_bar.xml" xy="117,50">
+    <component id="n1_jk0i" name="health_bar" src="jk0ip" fileName="战斗/progress_bar.xml" xy="117,57">
       <ProgressBar value="50" max="100"/>
     </component>
     <loader id="n2_jk0i" name="man_loader" xy="46,45" size="100,100" url="ui://e4ybow8ysggh1o" fill="scale"/>
-    <loader id="n3_jk0i" name="dog_loader" xy="96,-218" size="50,50" visible="false"/>
-    <component id="n4_jk0i" name="dog_health_bar" src="jk0ip" fileName="战斗/progress_bar.xml" xy="185,-182" visible="false">
+    <component id="n4_jk0i" name="dog_health_bar" src="jk0ip" fileName="战斗/progress_bar.xml" xy="96,169">
       <ProgressBar value="50" max="100"/>
     </component>
+    <loader id="n3_jk0i" name="dog_loader" xy="46,160" size="72,72" url="ui://e4ybow8ym9ym1s" fill="scale"/>
   </displayList>
 </component>

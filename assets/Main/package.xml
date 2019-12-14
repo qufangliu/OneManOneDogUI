@@ -30,7 +30,6 @@
     <component id="jk0it" name="store.xml" path="/商店/" exported="true"/>
     <component id="jk0iu" name="dog.xml" path="/回家/" exported="true"/>
     <component id="jk0iv" name="white_btn.xml" path="/通用/按钮/"/>
-    <component id="jk0iw" name="walk.xml" path="/遛狗/" exported="true"/>
     <image id="jk0iy" name="选中.png" path="/通用/素材/" scale="9grid" scale9grid="12,12,6,6"/>
     <component id="jk0iz" name="skill_btn.xml" path="/选择技能/"/>
     <component id="jk0i10" name="text_btn.xml" path="/通用/按钮/"/>
@@ -59,6 +58,7 @@
     <image id="sggh1o" name="组16.png" path="/通用/角色/"/>
     <image id="sggh1p" name="矩形1拷贝.png" path="/通用/素材/" scale="9grid" scale9grid="20,10,268,20"/>
     <image id="sggh1r" name="矩形1(1).png" path="/通用/素材/" scale="9grid" scale9grid="20,11,274,22"/>
+    <image id="m9ym1s" name="组13(2).png" path="/通用/角色/"/>
   </resources>
   <publish name="Main" genCode="true"/>
 </packageDescription>
