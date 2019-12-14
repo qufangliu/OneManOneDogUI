@@ -4,7 +4,6 @@
     <component id="uwco0" name="start.xml" path="/登录/" exported="true"/>
     <component id="kvhj1" name="tip.xml" path="/提示文字/" exported="true"/>
     <component id="kvhj2" name="bg.xml" path="/背景/" exported="true"/>
-    <image id="kvhj3" name="bg.png" path="/背景/素材/"/>
     <image id="kvhj4" name="line.png" path="/通用/素材/" scale="9grid" scale9grid="5,0,10,2"/>
     <image id="kvhj5" name="bak_down.png" path="/通用/素材/"/>
     <image id="kvhj6" name="but_white.png" path="/通用/素材/"/>
@@ -35,6 +34,28 @@
     <image id="jk0iy" name="选中.png" path="/通用/素材/" scale="9grid" scale9grid="12,12,6,6"/>
     <component id="jk0iz" name="skill_btn.xml" path="/选择技能/"/>
     <component id="jk0i10" name="text_btn.xml" path="/通用/按钮/"/>
+    <image id="jk0i11" name="组11.png" path="/通用/角色/"/>
+    <image id="jk0i12" name="组15.png" path="/通用/角色/"/>
+    <image id="jk0i13" name="组13(1).png" path="/通用/角色/"/>
+    <image id="jk0i14" name="组11拷贝(1).png" path="/通用/角色/"/>
+    <image id="jk0i15" name="组19.png" path="/通用/角色/"/>
+    <image id="jk0i16" name="组23.png" path="/通用/角色/"/>
+    <image id="jk0i17" name="1.png" path="/通用/角色/"/>
+    <image id="jk0i18" name="组4.png" path="/通用/角色/"/>
+    <image id="jk0i19" name="图层6拷贝2.png" path="/通用/素材/"/>
+    <image id="jk0i1a" name="图层3.png" path="/背景/素材/"/>
+    <image id="jk0i1b" name="7.png" path="/通用/icon/"/>
+    <image id="jk0i1c" name="6.png" path="/通用/icon/"/>
+    <image id="jk0i1d" name="5.png" path="/通用/icon/"/>
+    <image id="jk0i1e" name="4.png" path="/通用/icon/"/>
+    <image id="jk0i1f" name="3.png" path="/通用/icon/"/>
+    <image id="jk0i1g" name="2.png" path="/通用/icon/"/>
+    <image id="jk0i1h" name="1(1).png" path="/通用/icon/"/>
+    <image id="jk0i1i" name="组11(1).png" path="/通用/角色/"/>
+    <image id="jk0i1j" name="组12(1).png" path="/通用/icon/"/>
+    <image id="jk0i1k" name="组13(3).png" path="/通用/icon/"/>
+    <image id="jk0i1l" name="组14.png" path="/通用/icon/"/>
+    <image id="jk0i1n" name="bg(2).png" path="/背景/素材/"/>
   </resources>
   <publish name="Main" genCode="true"/>
 </packageDescription>

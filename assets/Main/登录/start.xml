@@ -2,13 +2,10 @@
 <component size="1334,750">
   <displayList>
     <component id="n3_kvhj" name="bg" src="kvhj2" fileName="背景/bg.xml" xy="0,0"/>
-    <text id="n0_kvhj" name="title_txt" xy="482,215" size="368,105" fontSize="90" color="#333333" text="一人一狗">
+    <text id="n0_kvhj" name="title_txt" xy="345,124" size="643,184" fontSize="160" color="#ffffff" text="一人一狗">
       <relation target="" sidePair="width-width%,center-center,top-middle%"/>
     </text>
-    <image id="n1_kvhj" name="n1" src="kvhj4" fileName="通用素材/line.png" xy="468,320" size="395,2">
-      <relation target="n0_kvhj" sidePair="width-width,center-center,top-bottom"/>
-    </image>
-    <component id="n2_kvhj" name="start_btn" src="kvhje" fileName="开始/start_btn.xml" xy="547,490" size="240,80">
+    <component id="n2_kvhj" name="start_btn" src="kvhje" fileName="通用/按钮/blue_btn.xml" xy="546,473" size="240,80">
       <relation target="n0_kvhj" sidePair="center-center,top-top"/>
       <Button titleFontSize="32"/>
     </component>

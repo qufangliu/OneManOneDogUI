@@ -3,8 +3,8 @@
   <controller name="content" pages="0,工作简介,1,其他介绍" selected="0"/>
   <displayList>
     <text id="n1_kvhj" name="content_txt" xy="473,317" size="388,116" fontSize="100" color="#ffffff" text="第一天..."/>
-    <component id="n3_jk0i" name="skip_btn" src="jk0i10" fileName="通用/按钮/text_btn.xml" xy="1030,647" size="240,59">
-      <Button title="点击跳过..." titleColor="#ffffff"/>
+    <component id="n3_jk0i" name="skip_btn" src="jk0i10" fileName="通用/按钮/text_btn.xml" xy="1030,647" size="238,59">
+      <Button title="开始工作..." titleColor="#ffffff"/>
     </component>
   </displayList>
 </component>
