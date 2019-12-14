@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <displayList>
+    <graph id="n0_kvhj" name="bg" xy="0,0" size="1334,750" type="rect" lineColor="#00000000" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n1_kvhj" name="content_txt" xy="473,317" size="388,116" fontSize="100" color="#ffffff" text="第一天..."/>
+  </displayList>
+</component>
