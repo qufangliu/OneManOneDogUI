@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <displayList>
+    <text id="n0_jk0i" name="title_txt" xy="348,64" size="638,84" fontSize="70" text="狗欢快的扑到你怀你">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n2_jk0i" name="dog_loader" xy="148,199" size="431,458"/>
+    <component id="n4_jk0i" name="act_1_btn" src="jk0iv" fileName="通用/按钮/white_btn.xml" xy="669,210" size="400,120">
+      <Button title="抱他" titleFontSize="50"/>
+    </component>
+    <component id="n5_jk0i" name="act_2_btn" src="jk0iv" fileName="通用/按钮/white_btn.xml" xy="669,368" size="400,120">
+      <Button title="撸他" titleFontSize="50"/>
+    </component>
+    <component id="n6_jk0i" name="act_3_btn" src="jk0iv" fileName="通用/按钮/white_btn.xml" xy="669,526" size="400,120">
+      <Button title="去遛狗" titleFontSize="50"/>
+    </component>
+  </displayList>
+</component>

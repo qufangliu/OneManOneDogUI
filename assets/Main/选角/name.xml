@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <displayList>
+    <loader id="n1_jk0i" name="dog_loader" xy="265,98" size="791,351"/>
+    <image id="n3_jk0i" name="n3" src="kvhj7" fileName="通用/素材/bak_white.png" xy="255,495" size="231,56">
+      <relation target="n2_jk0i" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </image>
+    <text id="n2_jk0i" name="name_txt" xy="290,503" size="162,40" input="true" prompt="狗狗的名字" fontSize="32" text=""/>
+    <component id="n4_jk0i" name="confirm_btn" src="jk0ii" fileName="通用/按钮/yellow_btn.xml" xy="513,500" size="148,52">
+      <Button title="好了"/>
+    </component>
+  </displayList>
+</component>

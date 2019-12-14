@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,150">
+  <displayList>
+    <image id="n3_jk0i" name="n3" src="kvhj7" fileName="通用/素材/bak_white.png" xy="0,0" size="500,150"/>
+    <loader id="n0_jk0i" name="icon_loader" xy="46,25" size="100,100">
+      <relation target="" sidePair="middle-middle,left-left"/>
+    </loader>
+    <text id="n1_jk0i" name="name_txt" xy="189,44" size="107,61" fontSize="50" color="#333333" text="骨头">
+      <relation target="n0_jk0i" sidePair="middle-middle,left-right"/>
+    </text>
+    <text id="n2_jk0i" name="price_txt" xy="352,44" size="111,61" fontSize="50" color="#333333" text="￥20">
+      <relation target="" sidePair="right-right"/>
+      <relation target="n1_jk0i" sidePair="middle-middle"/>
+    </text>
+  </displayList>
+</component>

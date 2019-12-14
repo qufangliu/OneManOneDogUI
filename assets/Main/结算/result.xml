@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <controller name="state" pages="0,战斗结束,1,一天结束" selected="1"/>
+  <displayList>
+    <graph id="n0_jk0i" name="n0" xy="0,0" size="1334,750" type="rect" lineColor="#00000000" fillColor="#ff333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n1_jk0i" name="title_txt" xy="463,64" size="406,86" fontSize="72" color="#ffffff" text="第1天结束了">
+      <gearText controller="state" pages="0,1" values="辛苦的工作结束了|第1天结束了"/>
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <image id="n2_jk0i" name="n2" src="kvhj4" fileName="通用/素材/line.png" xy="67,168" size="1200,2"/>
+    <text id="n3_jk0i" name="n3" xy="108,206" size="121,61" group="n12_jk0i" fontSize="50" color="#ffffff" text="消灭:"/>
+    <text id="n5_jk0i" name="n5" xy="386,208" size="197,61" group="n12_jk0i" fontSize="50" color="#ffffff" text="个Bug！">
+      <relation target="n4_jk0i" sidePair="left-right,bottom-bottom"/>
+    </text>
+    <text id="n4_jk0i" name="bug_num_txt" xy="247,208" size="117,61" group="n12_jk0i" fontSize="50" color="#ffffff" text="3666">
+      <relation target="n3_jk0i" sidePair="left-right,bottom-bottom"/>
+    </text>
+    <image id="n6_jk0i" name="n6" src="kvhj4" fileName="通用/素材/line.png" xy="242,267" size="127,2" group="n12_jk0i">
+      <relation target="n4_jk0i" sidePair="width-width,top-bottom"/>
+    </image>
+    <group id="n12_jk0i" name="n12" xy="108,206" size="475,63" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+    </group>
+    <text id="n7_jk0i" name="n7" xy="108,302" size="121,61" group="n13_jk0i" fontSize="50" color="#ffffff" text="完成:"/>
+    <text id="n8_jk0i" name="n8" xy="333,304" size="209,61" group="n13_jk0i" fontSize="50" color="#ffffff" text="个需求！">
+      <relation target="n9_jk0i" sidePair="left-right,bottom-bottom"/>
+    </text>
+    <text id="n9_jk0i" name="require_num_txt" xy="250,304" size="60,61" group="n13_jk0i" fontSize="50" color="#ffffff" text="36">
+      <relation target="n7_jk0i" sidePair="left-right,bottom-bottom"/>
+    </text>
+    <image id="n10_jk0i" name="n10" src="kvhj4" fileName="通用/素材/line.png" xy="244,363" size="71,2" group="n13_jk0i">
+      <relation target="n9_jk0i" sidePair="width-width,top-bottom"/>
+    </image>
+    <group id="n13_jk0i" name="n13" xy="108,302" size="434,63" advanced="true">
+      <gearDisplay controller="state" pages="0"/>
+    </group>
+    <loader id="n11_jk0i" name="man_loader" xy="500,230" size="100,100">
+      <gearXY controller="state" pages="1" values="500,230" default="108,412"/>
+    </loader>
+    <component id="n15_jk0i" name="man_progress_bar" src="jk0ip" fileName="战斗/progress_bar.xml" xy="622,308" size="200,22">
+      <relation target="n11_jk0i" sidePair="left-right,bottom-bottom"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <loader id="n16_jk0i" name="dog_loader" xy="500,382" size="100,100">
+      <gearXY controller="state" pages="1" values="500,382" default="705,402"/>
+    </loader>
+    <component id="n17_jk0i" name="dog_progress_bar" src="jk0ip" fileName="战斗/progress_bar.xml" xy="622,460" size="200,22">
+      <relation target="n16_jk0i" sidePair="left-right,bottom-bottom"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <image id="n18_jk0i" name="n18" src="kvhj4" fileName="通用/素材/line.png" xy="67,571" size="1200,2">
+      <gearDisplay controller="state" pages="0"/>
+    </image>
+    <text id="n20_jk0i" name="gain_txt" xy="500,556" size="293,61" fontSize="50" color="#ffffff" text="剩余：100元">
+      <gearXY controller="state" pages="1" values="500,556" default="962,614"/>
+      <gearText controller="state" pages="1" values="剩余：100元" default="挣得：100元"/>
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+  </displayList>
+</component>

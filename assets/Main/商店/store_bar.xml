@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,500">
+  <displayList>
+    <list id="n0_jk0i" name="n0" xy="0,0" size="500,500" overflow="scroll" lineGap="10" defaultItem="ui://e4ybow8yjk0is" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

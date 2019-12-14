@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <displayList>
+    <graph id="n0_jk0i" name="bg" xy="0,0" size="1334,750" type="rect" lineColor="#00000000" fillColor="#ff999999">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n2_jk0i" name="role_1" src="jk0ig" fileName="选角/role_bar.xml" xy="0,0"/>
+    <component id="n3_jk0i" name="role_2" src="jk0ig" fileName="选角/role_bar.xml" xy="667,0"/>
+    <image id="n4_jk0i" name="line" src="kvhj4" fileName="通用/素材/line.png" xy="667,375" pivot="0.5,0.5" anchor="true" size="720,2" rotation="90"/>
+  </displayList>
+</component>

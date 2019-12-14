@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750">
+  <displayList>
+    <text id="n0_jk0i" name="n0" xy="383,83" size="568,84" fontSize="70" text="下班回家路过商店">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n1_jk0i" name="goods_list" src="jk0ir" fileName="商店/store_bar.xml" xy="417,211"/>
+  </displayList>
+</component>

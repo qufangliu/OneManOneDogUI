@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="650,750">
+  <displayList>
+    <loader id="n0_jk0i" name="man_loader" xy="41,46" size="180,300"/>
+    <loader id="n1_jk0i" name="dog_loader" xy="250,166" size="300,180"/>
+    <text id="n2_jk0i" name="feature_txt" xy="41,381" size="99,40" fontSize="32" text="特征："/>
+    <component id="n3_jk0i" name="select_btn" src="jk0ii" fileName="通用/按钮/yellow_btn.xml" xy="205,562">
+      <Button title="这就是我"/>
+    </component>
+  </displayList>
+</component>

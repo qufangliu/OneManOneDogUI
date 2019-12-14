@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,120">
+  <controller name="state" pages="0,已解锁,1,未解锁" selected="0"/>
+  <displayList>
+    <image id="n1_jk0i" name="n1" src="kvhj7" fileName="通用/素材/bak_white.png" xy="0,0" size="120,120">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n2_jk0i" name="icon_loader" xy="10,10" size="100,100" fill="scale">
+      <relation target="" sidePair="width-width%,height-height%,center-center,middle-middle"/>
+    </loader>
+    <image id="n3_jk0i" name="n3" src="jk0im" fileName="选择技能/素材/锁定.png" xy="35,35" size="50,50">
+      <gearDisplay controller="state" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+</component>

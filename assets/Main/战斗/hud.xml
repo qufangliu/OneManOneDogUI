@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" opaque="false">
+  <controller name="state" pages="0,战斗,1,提示" selected="0"/>
+  <displayList>
+    <component id="n0_jk0i" name="hud_tip" src="jk0io" fileName="战斗/hud_tip.xml" xy="0,0">
+      <gearDisplay controller="state" pages="1"/>
+    </component>
+    <loader id="n2_jk0i" name="man_loader" xy="58,51" size="100,100"/>
+    <component id="n1_jk0i" name="health_bar" src="jk0ip" fileName="战斗/progress_bar.xml" xy="173,129" size="200,22">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <loader id="n3_jk0i" name="dog_loader" xy="108,176" size="50,50"/>
+    <component id="n4_jk0i" name="dog_health_bar" src="jk0ip" fileName="战斗/progress_bar.xml" xy="173,204" size="200,22">
+      <ProgressBar value="50" max="100"/>
+    </component>
+  </displayList>
+</component>

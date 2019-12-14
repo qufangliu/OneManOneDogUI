@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1334,750" opaque="false">
+  <displayList>
+    <graph id="n0_jk0i" name="n0" xy="0,277" size="1334,100" alpha="0.6" type="rect" lineColor="#00000000">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <text id="n1_jk0i" name="tip_text" xy="562,300" size="209,61" fontSize="50" color="#333333" text="策划来袭">
+      <relation target="n0_jk0i" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>
