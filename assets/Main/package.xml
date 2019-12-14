@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <packageDescription id="e4ybow8y">
   <resources>
-    <component id="uwco0" name="Init.xml" path="/" exported="true"/>
+    <component id="uwco0" name="start.xml" path="/开始/" exported="true"/>
+    <component id="kvhj1" name="tip.xml" path="/提示文字/" exported="true"/>
+    <component id="kvhj2" name="bg.xml" path="/背景/" exported="true"/>
+    <image id="kvhj3" name="bg.png" path="/背景/素材/"/>
+    <image id="kvhj4" name="line.png" path="/通用素材/" scale="9grid" scale9grid="5,0,10,2"/>
+    <image id="kvhj5" name="bak_down.png" path="/通用素材/"/>
+    <image id="kvhj6" name="but_white.png" path="/通用素材/"/>
+    <image id="kvhj7" name="bak_white.png" path="/通用素材/"/>
+    <image id="kvhj8" name="bak_up.png" path="/通用素材/"/>
+    <image id="kvhj9" name="but_blue.png" path="/通用素材/" scale="9grid" scale9grid="20,20,14,2"/>
+    <image id="kvhja" name="schedule.png" path="/通用素材/"/>
+    <image id="kvhjb" name="but_yellow.png" path="/通用素材/"/>
+    <image id="kvhjc" name="schedule_bak.png" path="/通用素材/"/>
+    <image id="kvhjd" name="but_grey.png" path="/通用素材/"/>
+    <component id="kvhje" name="start_btn.xml" path="/开始/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>
