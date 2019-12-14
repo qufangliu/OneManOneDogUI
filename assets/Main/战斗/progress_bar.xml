@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="100,22" extention="ProgressBar">
+<component size="314,44" extention="ProgressBar">
   <displayList>
-    <image id="n0_jk0i" name="n0" src="kvhjc" fileName="通用/素材/schedule_bak.png" xy="0,0" size="100,22">
-      <relation target="" sidePair="width-width,height-height"/>
-    </image>
-    <image id="n1_jk0i" name="bar" src="kvhja" fileName="通用/素材/schedule.png" xy="2,1" size="96,20"/>
+    <image id="n0_jk0i" name="n0" src="sggh1r" fileName="通用/素材/矩形1(1).png" xy="0,0"/>
+    <image id="n1_jk0i" name="bar" src="sggh1p" fileName="通用/素材/矩形1拷贝.png" xy="3,2"/>
   </displayList>
   <ProgressBar/>
 </component>

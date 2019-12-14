@@ -56,6 +56,9 @@
     <image id="jk0i1k" name="组13(3).png" path="/通用/icon/"/>
     <image id="jk0i1l" name="组14.png" path="/通用/icon/"/>
     <image id="jk0i1n" name="bg(2).png" path="/背景/素材/"/>
+    <image id="sggh1o" name="组16.png" path="/通用/角色/"/>
+    <image id="sggh1p" name="矩形1拷贝.png" path="/通用/素材/" scale="9grid" scale9grid="20,10,268,20"/>
+    <image id="sggh1r" name="矩形1(1).png" path="/通用/素材/" scale="9grid" scale9grid="20,11,274,22"/>
   </resources>
   <publish name="Main" genCode="true"/>
 </packageDescription>
