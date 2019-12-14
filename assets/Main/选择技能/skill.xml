@@ -1,29 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1334,750">
   <displayList>
-    <text id="n0_jk0i" name="n0" xy="562,37" size="209,61" fontSize="50" text="选择软件">
+    <text id="n0_jk0i" name="n0" xy="562,37" size="205,61" fontSize="50" text="选择软件">
       <relation target="" sidePair="center-center,top-top"/>
     </text>
     <image id="n1_jk0i" name="n1" src="kvhj4" fileName="通用/素材/line.png" xy="67,112" size="1200,2">
       <relation target="" sidePair="center-center,top-top"/>
     </image>
-    <text id="n2_jk0i" name="n2" xy="537,364" size="259,61" fontSize="50" text="选择陪伴技">
+    <list id="n4_jk0i" name="skill_list" xy="217,140" size="900,150" layout="row" selectionMode="multipleSingleClick" colGap="60" defaultItem="ui://e4ybow8yjk0iz" autoItemSize="false" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n2_jk0i" name="n2" xy="537,346" size="255,61" fontSize="50" text="选择陪伴技">
       <relation target="" sidePair="center-center,top-top"/>
     </text>
-    <image id="n3_jk0i" name="n3" src="kvhj4" fileName="通用/素材/line.png" xy="67,439" size="1200,2">
+    <image id="n3_jk0i" name="n3" src="kvhj4" fileName="通用/素材/line.png" xy="67,421" size="1200,2">
       <relation target="" sidePair="center-center,top-top"/>
     </image>
-    <list id="n4_jk0i" name="skill_list" xy="217,140" size="900,150" layout="row" colGap="60" defaultItem="ui://e4ybow8yjk0il" autoItemSize="false" align="center" vAlign="middle">
+    <list id="n5_jk0i" name="accompany_skill_list" xy="217,455" size="900,150" layout="row" selectionMode="multipleSingleClick" colGap="60" defaultItem="ui://e4ybow8yjk0iz" autoItemSize="false" align="center" vAlign="middle">
       <item/>
       <item/>
       <item/>
       <item/>
     </list>
-    <list id="n5_jk0i" name="accompany_skill_list" xy="217,473" size="900,150" layout="row" colGap="60" defaultItem="ui://e4ybow8yjk0il" autoItemSize="false" align="center" vAlign="middle">
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-    </list>
+    <component id="n6_jk0i" name="start_btn" src="jk0ii" fileName="通用/按钮/yellow_btn.xml" xy="567,636">
+      <Button title="选好了"/>
+    </component>
   </displayList>
 </component>

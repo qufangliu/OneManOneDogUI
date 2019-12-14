@@ -21,7 +21,6 @@
     <component id="jk0ii" name="yellow_btn.xml" path="/通用/按钮/"/>
     <component id="jk0ij" name="name.xml" path="/选角/" exported="true"/>
     <component id="jk0ik" name="skill.xml" path="/选择技能/" exported="true"/>
-    <component id="jk0il" name="skill_item.xml" path="/选择技能/"/>
     <image id="jk0im" name="锁定.png" path="/选择技能/素材/"/>
     <component id="jk0in" name="hud.xml" path="/战斗/" exported="true"/>
     <component id="jk0io" name="hud_tip.xml" path="/战斗/"/>
@@ -33,6 +32,9 @@
     <component id="jk0iu" name="dog.xml" path="/回家/" exported="true"/>
     <component id="jk0iv" name="white_btn.xml" path="/通用/按钮/"/>
     <component id="jk0iw" name="walk.xml" path="/遛狗/" exported="true"/>
+    <image id="jk0iy" name="选中.png" path="/通用/素材/" scale="9grid" scale9grid="12,12,6,6"/>
+    <component id="jk0iz" name="skill_btn.xml" path="/选择技能/"/>
+    <component id="jk0i10" name="text_btn.xml" path="/通用/按钮/"/>
   </resources>
-  <publish name="" genCode="true"/>
+  <publish name="Main" genCode="true"/>
 </packageDescription>

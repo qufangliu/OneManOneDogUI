@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,120" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver,4,disable" selected="0"/>
+  <displayList>
+    <image id="n0_jk0i" name="n0" src="kvhj7" fileName="通用/素材/bak_white.png" xy="0,0" size="120,120">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n1_jk0i" name="icon" xy="10,10" size="100,100" align="center" vAlign="middle">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <image id="n2_jk0i" name="n2" src="jk0im" fileName="选择技能/素材/锁定.png" xy="35,35" size="50,50">
+      <gearDisplay controller="button" pages="4"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n3_jk0i" name="n3" src="jk0iy" fileName="通用/素材/选中.png" xy="0,0" size="120,120">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button mode="Check"/>
+</component>
